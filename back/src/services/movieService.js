@@ -1,3 +1,5 @@
+const Movies = require('../types/class')
+
 module.exports = {
     getAllMovies: async () => {
         try {
@@ -10,8 +12,11 @@ module.exports = {
             
             // Parsear el JSON en la respuesta
             const data = await response.json();
+            console.log(data);
+
+            const movies = data.map(movie => new Movies(movie))
             
-            return data;
+            return movies;
         } catch (error) {
             // Manejar cualquier error
             console.error('Hubo un problema con la operación fetch:', error);
