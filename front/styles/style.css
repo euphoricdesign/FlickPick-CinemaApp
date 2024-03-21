@@ -59,7 +59,7 @@ section {
     font-size: 15px;
 }
 
-.sections li:nth-child(1),.sections li:nth-child(2) {
+.sections li:nth-child(1),.sections li:nth-child(2), .sections li:nth-child(3) {
     margin-right: 15px;
 }
 
@@ -155,7 +155,7 @@ section {
   
 .hex__tag {
     display:flex;
-    justify-content: space-between;
+    justify-content: start;
     margin-top:15px;
     margin-bottom:20px;
 }
@@ -169,6 +169,7 @@ section {
     padding:5px 10px;
     border-radius:50px;
     font-size:.85em;
+    margin-right: 5px;
 }
   
   

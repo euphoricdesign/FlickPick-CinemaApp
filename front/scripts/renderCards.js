@@ -51,7 +51,7 @@ const renderCards = (data) => {
         content.appendChild(movieDuration)
         content.appendChild(genderContainer)
     
-        cardContainer.appendChild(card)
+        cardContainer?.appendChild(card)
     
     })
 }

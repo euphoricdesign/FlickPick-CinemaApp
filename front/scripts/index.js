@@ -1,3 +1,4 @@
+const createMovie = require('./createMovie')
 const renderCards = require('./renderCards')
 const axios = require('axios')
 
@@ -11,7 +12,14 @@ const fetchingData = async() => {
     }
 }
 
-fetchingData()
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetchingData()
+    const submit = document.getElementById("form")
+    submit?.addEventListener('submit', createMovie)
+})
+
+
 
 
 

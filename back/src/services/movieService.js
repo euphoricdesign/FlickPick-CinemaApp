@@ -1,25 +1,26 @@
 const Movies = require('../types/class')
+const Movie = require('../models/Movie')
 
 module.exports = {
     getAllMovies: async () => {
         try {
-            const response = await fetch('https://students-api.up.railway.app/movies');
-            
-            // Verificar si la solicitud fue exitosa
-            if (!response.ok) {
-                throw new Error('La respuesta de la red no fue correcta');
-            }
-            
-            // Parsear el JSON en la respuesta
-            const data = await response.json();
-            console.log(data);
+            const data = await Movie.find().exec()
 
             const movies = data.map(movie => new Movies(movie))
             
             return movies;
         } catch (error) {
             // Manejar cualquier error
-            console.error('Hubo un problema con la operación fetch:', error);
+            console.error('Hubo un problema con la operación:', error);
+            throw error;
+        }
+    },
+    createMovie: async (movie) => {
+        try {
+            const newMovie = await Movie.create(movie)
+            return newMovie
+        } catch (error) {
+            console.error('Hubo un problema con la operación:', error);
             throw error;
         }
     }

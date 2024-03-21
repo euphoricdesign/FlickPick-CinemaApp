@@ -1,0 +1,77 @@
+.input__movie {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300;
+}
+
+.btn_movie_form {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    border: none;
+    color: white;
+}
+
+.form_text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_text_container p {
+    max-width: 730px;
+    line-height: 2;
+    margin: 0;
+    text-align: center;
+}
+
+.h1_movie_form {
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.mi-select {
+    width: 200px;
+    height: auto; /* La altura será ajustada automáticamente según el contenido */
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .mi-select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Estilo para las opciones */
+  .mi-select option {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Estilo para las opciones seleccionadas */
+  .mi-select option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+.explanation {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px; /* Ajusta según sea necesario */
+}
