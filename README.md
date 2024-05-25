@@ -6,7 +6,7 @@ description: "Plataforma de salas de cine."
 # FlickPick
 
 ## Descripción
-FlickPick es una aplicación de salas de cine interactivas donde los usuarios pueden elegir las películas que desean ver en cartelera a través de completar un formulario. Aunque la aplicación actualmente cuenta con funcionalidades básicas, tiene un gran potencial para ser expandida y mejorada con nuevas características que se implementarán en el futuro.
+FlickPick es una innovadora aplicación de salas de cine interactivas donde los usuarios pueden elegir las películas que desean ver en cartelera completando un formulario. Este proyecto incorpora funcionalidades que demuestran habilidades técnicas y creativas. Con FlickPick, los usuarios pueden experimentar un cine más dinámico y participativo, con la visión de expandir y mejorar la aplicación con nuevas características en el futuro.
 
 ## Características
 - **Visualización de Películas:** Los usuarios pueden ver en la página principal las películas guardadas en la base de datos.
@@ -61,6 +61,16 @@ Si deseas contribuir a FlickPick, sigue estas pautas:
 3. Realiza los cambios necesarios y haz commit (`git commit -m 'Añadir nueva característica'`).
 4. Envía tus cambios a tu repositorio fork (`git push origin feature/nueva-caracteristica`).
 5. Crea un Pull Request explicando los cambios realizados.
+
+## Potencial de Expansión
+FlickPick no solo cumple con los requisitos actuales del proyecto, sino que también tiene el potencial de ser expandido y mejorado con nuevas funcionalidades, tales como:
+
+- **Votaciones para películas:** Permitir a los usuarios votar por las películas que quieren ver en cartelera.
+- **Comentarios y recomendaciones:** Implementar una sección donde los usuarios puedan dejar comentarios y recomendaciones sobre las películas.
+- **Horarios dinámicos:** Automatizar y personalizar los horarios de las películas en función de la demanda de los usuarios.
+
+## Viabilidad y Realismo
+Aunque la idea de un cine donde los usuarios deciden la cartelera puede parecer poco común, conceptos similares existen en otras industrias, como plataformas de votación o aplicaciones de contenido generado por usuarios.
 
 ## Licencia
 Este proyecto no tiene una licencia específica por el momento.
